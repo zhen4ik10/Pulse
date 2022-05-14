@@ -1,0 +1,27 @@
+@import 'variables';
+
+* {
+    font-family: 'MuseoModerno', cursive;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #0D0D0D;
+    margin-bottom: 0;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantage';
+@import 'blocks/consultation';
+@import 'blocks/form';
+@import 'media'
+

@@ -1,0 +1,28 @@
+.consultation {
+    background: url('../../img/bg/main-bg.png') center (center/cover) no-repeat;
+    padding-top: 100px;
+    padding-bottom: 92px;
+    min-height: 680px;
+    padding-left: 5px;
+    padding-right: 5px;
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        text-transform: uppercase;
+        color: $white-text; 
+        max-width: 825px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        display: flex;
+        color: $white-text; 
+        max-width: 430px;
+        margin-top: 10px;
+    }
+
+}
