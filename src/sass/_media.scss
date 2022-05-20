@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 768px) {
     .header {
         &__official {
@@ -8,6 +9,15 @@
         &__phone {
             font-size: 16px;
         }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
+    .catalog-item {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
 
@@ -55,5 +65,36 @@
     }
     .feed-form {
         margin: 36px auto 0;
+    }
+    .catalog {
+        &__tab {
+            font-size: 14px;
+        }
+    }
+    .reviews {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item-content {
+            max-width: 100%;
+            margin-left: 0;
+            margin-top: 40px;
+        }
+        &__item-title {
+            text-align: center;
+            font-size: 22px;
+        }
+        &__item-descr {
+            text-align: center;
+            font-size: 16px;
+        }
+        &__item-text {
+            margin-top: 15px;
+            p {
+                text-align: center;
+                font-size: 18px;
+            }
+        }
     }
 }

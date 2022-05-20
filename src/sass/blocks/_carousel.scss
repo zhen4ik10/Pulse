@@ -1,9 +1,12 @@
 .carousel {
-    padding: 81px 0;
+    padding: 81px 5px;
     &__inner {
         position: relative;
         max-width: 750px;
         margin: 0 auto;
+        img {
+            width: 100%;
+        }
     }
     .slick-prev {
         position: absolute;
