@@ -125,7 +125,7 @@
             <div class="consultation__descr">
                 Просто заполните форму заявки и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form" action="#">
+            <form id="consultation-form" class="feed-form" action="#">
                 <input type="text" name="name" placeholder="Ваше имя" required>
                 <input type="tel" name="phone" placeholder="Ваш телефон" required>
                 <input type="email" name="email" placeholder="Ваш E-mail" required>
@@ -756,9 +756,9 @@
                 и мы перезвоним вам в течении 10 минут
             </div>
             <form class="feed-form feed-form--mt25" action="#">
-                <input type="text" name="name" placeholder="Ваше имя" required>
-                <input type="tel" name="phone" placeholder="Ваш телефон" required>
-                <input type="email" name="email" placeholder="Ваш E-mail" required>
+                <input type="text" name="name" placeholder="Ваше имя">
+                <input type="tel" name="phone" placeholder="Ваш телефон">
+                <input type="email" name="email" placeholder="Ваш E-mail">
                 <button class="button button__submit">
                     заказать консультацию
                 </button>
@@ -800,6 +800,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

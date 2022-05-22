@@ -36,6 +36,14 @@
         text-align: center;
         color: #0D0D0D;
     }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
 .modal--mini {
     min-height: 140px;
