@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'animations';
 
 * {
     font-family: 'MuseoModerno', cursive;
@@ -28,5 +29,6 @@
 @import 'blocks/reviews';
 @import 'blocks/footer'; 
 @import 'blocks/modal';
+@import 'blocks/pageup';
 @import 'media'
 

@@ -41,6 +41,16 @@
         margin-top: 20px;
         margin-bottom: 0;
     }
+    &__item-img--animated {
+        animation: heartbeat 1.6s ease infinite;
+        // animation-name: heartbeat;
+        // animation-duration: 1.6s;
+        // animation-timing-function: ease;
+        // animation-iteration-count: infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
 }
 .text--underline {
     font-weight: 300;
